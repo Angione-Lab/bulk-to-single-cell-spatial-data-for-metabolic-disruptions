@@ -1,5 +1,5 @@
 %%% Code for setting the model's bounds according to the transcriptomic data
-% by Giuseppe
+%Boundary privided by Noushin
 
 % gamma = [2, 1.5, 1, 0.5];                            
 % threshold = [0,10,25,50];                        
@@ -10,6 +10,94 @@
 
 load('human1.mat');
 model = human1;
+
+
+model = changeRxnBounds(model,'CITRtm',0.00368209748124444,'u');%CITRtm
+model = changeRxnBounds(model,'CITRtm',0.00351384832876872,'l');
+ 
+model = changeRxnBounds(model,'MAL_Lte',0.000843099,'u');%malate
+model = changeRxnBounds(model,'MAL_Lte',0.000732398763287308,'l');
+
+model = changeRxnBounds(model,'HMR_9048',-2,'1'); %o2
+model = changeRxnBounds(model,'HMR_9048',0,'u');
+
+
+model = changeRxnBounds(model,'HMR_9034',-0.436212496491953,'1'); %glucose
+model = changeRxnBounds(model,'HMR_9034',-0.433578512991697,'u')
+
+model = changeRxnBounds(model,'HMR_9135',0.602986807828337,'1');%lactate 
+model = changeRxnBounds(model,'HMR_9135',0.602986807828337,'u')
+
+
+model = changeRxnBounds(model,'HMR_9063',-0.110504785,'1'); %glutamine
+model = changeRxnBounds(model,'HMR_9063',-0.105713826230368,'u');
+
+
+model = changeRxnBounds(model,'HMR_9071',0.017333082,'1'); %glutamate
+model = changeRxnBounds(model,'HMR_9071',0.019031666,'u');
+
+model = changeRxnBounds(model,'HMR_9070',0.000750958,'l'); %aspartate
+model = changeRxnBounds(model,'HMR_9070',0.004253695,'u');
+
+
+model = changeRxnBounds(model,'HMR_9062',-0.005030074,'l'); %asparagine
+model = changeRxnBounds(model,'HMR_9062',0.000125257,'u');
+
+
+model = changeRxnBounds(model,'HMR_9068',0.00204167687175758,'1'); %proline
+model = changeRxnBounds(model,'HMR_9068',0.0032211735344259,'u');
+
+
+model = changeRxnBounds(model,'HMR_9066',-0.005552074,'1'); %arginine
+model = changeRxnBounds(model,'HMR_9066',0.00264078139633385,'u');
+
+
+model = changeRxnBounds(model,'HMR_9061',0.0125778798412317,'1'); %alanine
+model = changeRxnBounds(model,'HMR_9061',0.0155448644221056,'u');
+
+
+
+model = changeRxnBounds(model,'HMR_9069',-0.0235542728719781,'l'); %serine
+model = changeRxnBounds(model,'HMR_9069',-0.0216456965485817,'u');
+
+
+model = changeRxnBounds(model,'HMR_9067',0.000822982323203474,'l'); %glycine
+model = changeRxnBounds(model,'HMR_9067',0.00191853,'u');
+
+
+model = changeRxnBounds(model,'HMR_9041',-0.0103457563037912,'l'); %lysine
+model = changeRxnBounds(model,'HMR_9041',-0.00994377466392736,'u');
+
+
+
+model = changeRxnBounds(model,'HMR_9045',-0.001321123,'l'); %tryptophan
+model = changeRxnBounds(model,'HMR_9045',-0.00100677090358275,'u');
+
+
+model = changeRxnBounds(model,'HMR_9040',-0.015474964,'l'); %leucine
+model = changeRxnBounds(model,'HMR_9040',-0.007186224,'u');
+
+
+model = changeRxnBounds(model,'HMR_9064',-0.0081131265759043,'l'); %tyrosine
+model = changeRxnBounds(model,'HMR_9064',-0.004467569,'u');
+
+
+model = changeRxnBounds(model,'HMR_9043',-0.004821991,'l'); %phenylalanine
+model = changeRxnBounds(model,'HMR_9043',-0.003758165,'u');
+
+
+model = changeRxnBounds(model,'HMR_9039',-0.011731877,'l'); %isoleucine
+model = changeRxnBounds(model,'HMR_9039',-0.00645537,'u');
+
+model = changeRxnBounds(model,'HMR_9046',-0.009963059,'l'); %Valine
+model = changeRxnBounds(model,'HMR_9046',-0.00728358,'u');
+
+model = changeRxnBounds(model,'HMR_9044',-0.009634843,'l'); %threonine
+model = changeRxnBounds(model,'HMR_9044',-0.00731823,'u');
+
+model = changeRxnBounds(model,'HMR_9087',-0.001561292,'l'); %ornithine
+model = changeRxnBounds(model,'HMR_9087',0.000728721893945584,'u');
+
 
 
 % model.c(13350) = 0; %  remove biomass from being the objective if you want to optimise another function
