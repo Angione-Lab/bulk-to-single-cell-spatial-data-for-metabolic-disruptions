@@ -8,7 +8,7 @@ library("dplyr")
 
 
 
-# Getting the directory.
+# Getting file directory.
 getwd()
 # Setting the directory.
 setwd("C:/Users/Data")
