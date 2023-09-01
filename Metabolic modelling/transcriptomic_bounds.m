@@ -1,6 +1,6 @@
 function [fluxes] = transcriptomic_bounds(gamma, gene_expression, model, genes, reaction_expression, pos_genes_in_react_expr, ixs_geni_sorted_by_length)
 %% code modified by Noushin
-% function modified from evaluate_objective.m
+% function modified from the evaluate_objective.m
 yt=gene_expression';      
 eval_reaction_expression = reaction_expression;
 
