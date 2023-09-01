@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Pre Processing Gene Data.ipynb
+"""Pre Processing Gene Data
 
 """
 
