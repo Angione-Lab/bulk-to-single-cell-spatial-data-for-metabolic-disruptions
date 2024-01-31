@@ -1,6 +1,6 @@
-# Integrating multi-omic machine learning with patient-specific metabolic modelling for personalised therapy in breast cancer
+# Uncovering breast cancer metabolic landscape through multi-modal machine learning and metabolic modelling
 
-This repository contains the code and data to reproduce the results presented in the paper “Integrating multi-omic machine learning with patient-specific metabolic modelling for personalised therapy in breast cancer"
+This repository contains the code and data to reproduce the results presented in the paper “Uncovering breast cancer metabolic landscape through multi-modal machine learning and metabolic modelling"
 
 The framework integrates machine learning with patient-specific metabolic modelling to predict risk for breast cancer patients. The repository contains 3 main folders:
 <li> Data preprocessing: providing the preprocessing code, including feature selection techniques for transcriptomic and fluxomic data; </li>
