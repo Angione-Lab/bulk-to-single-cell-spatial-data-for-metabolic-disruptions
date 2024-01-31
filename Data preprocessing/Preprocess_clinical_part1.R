@@ -6,8 +6,6 @@ library("R.matlab")
 library("matlabr")
 library("dplyr")
 
-
-
 # Getting file directory.
 getwd()
 # Setting the directory.
