@@ -7,6 +7,7 @@ genesets = fbamodel.grRules;
 %use the following code. We only need to convert "AND" into "and", "OR"
 %into "or" because of how associate_genes_reactions.m is written
 
+
 genesets = regexprep(genesets,' AND ',' and '); 
 genesets = regexprep(genesets,' OR ',' or '); 
 
