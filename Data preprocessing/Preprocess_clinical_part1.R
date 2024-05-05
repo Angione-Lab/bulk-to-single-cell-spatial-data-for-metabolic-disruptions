@@ -1,4 +1,4 @@
-# Loading required packages to run the script.
+# Loading required packages.
 
 library("factoextra")
 library("FactoMineR")
