@@ -4,7 +4,7 @@ genesets = fbamodel.grRules;
 
 %note the genesets are already written nicely and ordered by reaction, so there
 %is no need to assign each geneset to a reaction, so there is no need to
-%use the following code. We only need to convert "AND" into "and", "OR"
+%use the following code . We only need to convert "AND" into "and", "OR"
 %into "or" because of how associate_genes_reactions.m is written
 
 
