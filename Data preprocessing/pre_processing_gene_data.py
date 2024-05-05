@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Pre Processing Gene Data
+"""Pre-processing Gene Data
 """
 
 #Import Packages used for Dataset
