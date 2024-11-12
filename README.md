@@ -22,4 +22,4 @@ The following steps are required to run the code:
 
 This code is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Public License for more details.
 
-Le Minh Thao Doan - May 2024
+Le Minh Thao Doan - Nov 2024
