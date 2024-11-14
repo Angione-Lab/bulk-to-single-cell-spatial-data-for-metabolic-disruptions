@@ -13,7 +13,7 @@ setwd("C:/Users/Data")
 # Uploading the data set. #GTEX = healthy #TCGA = with cancer.
 
 BreastCancer <-
-  read.csv(file = "SurvivalOriginal.csv",
+  read.csv(file = "Clinical_Original.csv",
            stringsAsFactors = FALSE,
            header = TRUE)
 
