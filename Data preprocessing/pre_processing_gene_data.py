@@ -37,7 +37,7 @@ dataset.iloc[:,1:]
 d=dataset.T
 
 #Importing data
-sdata = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/survival.csv')
+sdata = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/Clinical_Original.csv')
 
 newdata=sdata[sdata.type == 'BRCA']
 print(newdata.shape)
