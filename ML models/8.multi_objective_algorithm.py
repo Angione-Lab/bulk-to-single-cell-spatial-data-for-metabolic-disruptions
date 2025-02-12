@@ -7,7 +7,7 @@ by Le Doan
 # !pip install scikit-optimize
 # !pip install mygene
 
-# Check version
+# Check scikit-learn version
 import sklearn
 print('The scikit-learn version is {}.'.format(sklearn.__version__))
 
