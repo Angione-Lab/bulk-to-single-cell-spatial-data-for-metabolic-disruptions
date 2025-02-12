@@ -1,4 +1,5 @@
-mean_gene_Gtex = mean(gene_exp_Gtex);
+mean_gene_Gtex = mean(gene_exp_Gtex); 
+
 normalized_gene_exp_one = zeros(size(gene_exp));
 maxi= max(max(gene_exp));
 
