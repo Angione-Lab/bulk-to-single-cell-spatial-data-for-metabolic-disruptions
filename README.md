@@ -1,6 +1,6 @@
-# From bulk to single-cell and spatial data: An AI  framework to characterise breast cancer metabolic disruptions across modalities
+# From bulk to single-cell and spatial data: An AI  framework to characterise breast cancer metabolic dysregulations across modalities
 
-This repository contains the code and data to reproduce the results presented in the paper “From bulk to single-cell and spatial data: An AI framework to characterise breast cancer metabolic disruptions across modalities"
+This repository contains the code and data to reproduce the results presented in the paper “From bulk to single-cell and spatial data: An AI framework to characterise breast cancer metabolic dysregulations across modalities"
 
 The framework integrates machine learning with patient-specific metabolic modelling to predict risk for breast cancer patients. The repository contains 3 main folders:
 <li> Data preprocessing: providing the preprocessing code, including feature selection techniques for transcriptomic and fluxomic data; </li>
@@ -22,4 +22,4 @@ The following steps are required to run the code:
 
 This code is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Public License for more details.
 
-Le Minh Thao Doan - Nov 2024
+Le Minh Thao Doan - Aug 2025
