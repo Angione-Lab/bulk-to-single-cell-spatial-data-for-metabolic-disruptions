@@ -1,6 +1,7 @@
 # From bulk to single-cell and spatial data: An AI  framework to characterise breast cancer metabolic dysregulations across modalities
 
 This repository contains the code and data to reproduce the results presented in the paper “From bulk to single-cell and spatial data: An AI framework to characterise breast cancer metabolic dysregulations across modalities"
+
 Link to paper: https://www.sciencedirect.com/science/article/pii/S0010482525015483
 
 The framework integrates machine learning with patient-specific metabolic modelling to predict risk for breast cancer patients. The repository contains 3 main folders:
